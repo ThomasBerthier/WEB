@@ -41,6 +41,8 @@
             <li><a href="Exercice_PHP_Partie3/Exercice1.php">Exercice1</a></li>
         </ul>
     </div>
-    <div></div>
+    <div>
+    <a href="../index.html">Retour</a>
+    </div>
 </body>
 </html>
