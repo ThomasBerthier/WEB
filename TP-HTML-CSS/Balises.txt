@@ -1,0 +1,43 @@
+exo1
+
+italique<i>
+gras<b>
+text<span>
+paragraphe<p>
+
+
+
+
+
+exo2
+
+aligner<align=>
+
+
+
+
+
+
+
+exo3
+
+tableau<table>
+	<tr>
+	<td>
+tableau pour structurer des données
+div pour structurer des sites
+
+
+
+
+
+exo 4
+lien hypertexte <a>
+
+
+Exo 6
+<imput type="radio">
+<imput type="text">
+<select>
+<imput type="submit">
+	

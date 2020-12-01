@@ -1,0 +1,28 @@
+.label
+{
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    float: left;
+    width: 300px;
+}
+
+.input
+{
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    margin-top: 0;
+    margin-left: 300px;
+}
+
+
+
+p:first-child{
+    margin-top: 0
+}
+
+p
+{
+    height: 21px;
+}
