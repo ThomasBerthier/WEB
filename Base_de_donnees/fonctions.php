@@ -41,3 +41,22 @@
         }
     }
 ?>
+
+
+<?php
+    function insert($marequete)
+    {
+
+        try {
+            $base = new PDO('mysql:host=localhost; dbname=Thomas_BDD_TD2_Exo2; charset=utf8','root', 'root');
+            $base->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+           $base->exec($_POST['Requete']);
+
+            echo "Insertion reussie";
+
+        } catch (\Throwable $e) {
+            echo "Oups :(";
+        }
+
+    }
