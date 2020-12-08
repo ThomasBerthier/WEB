@@ -26,7 +26,7 @@
             </form> 
         </table>   
     </div>
-    <div>
+    <div class="bottom">
         <?php
             if(isset($_POST['Calcul'])){
                 moyenne(
