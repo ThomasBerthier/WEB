@@ -2,24 +2,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="Exercice1.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercice 1</title>
 </head>
 <body>
-    <?php afficheUser();?>
-    <table>
+    <table class="border">
         <tr>
-            <td>User</td>
+            <td class="border">User</td>
         </tr>
-        <tr class="border">
+        <tr >
             <td>-Nom : String</td>
         </tr>
         <tr>
            <td>-Prenom : String</td>
         </tr>
         <tr>
-            <td>+AfficheUser() : Void</td>
+            <td class="border">+AfficheUser() : Void</td>
         </tr>
         
     </table>

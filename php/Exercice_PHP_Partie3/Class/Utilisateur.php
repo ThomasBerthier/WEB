@@ -1,8 +1,8 @@
 <?php
 class utilisateur
 {
-    private $_Nom="Thomas";
-    private $_Mdp=1234;
+    private $_Nom = "Berthier";
+    private $_Prenom = "Thomas";
 
     public function afficheUser()
     {
