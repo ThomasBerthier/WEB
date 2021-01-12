@@ -8,6 +8,7 @@
     <title>Exercice 1</title>
 </head>
 <body>
+    <h1>Exercice 1 :</h1>
     <table class="border">
         <tr>
             <td class="border">User</td>
@@ -23,5 +24,18 @@
         </tr>
         
     </table>
+    <div>
+    <h1>Code :</h1>
+    <?php
+        highlight_file(__FILE__);
+    ?>
+    </div>
+    <div>
+    <h1>Code class :</h1>
+    <?php
+        highlight_file("Class/Utilisateur.php");
+    ?>
+    </div>
+    
 </body>
 </html>
