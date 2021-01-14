@@ -39,6 +39,14 @@
         <h1>Partie 3</h1>
         <ul>
             <li><a href="Exercice_PHP_Partie3/Exercice1.php">Exercice1</a></li>
+            <li><a href="Exercice_PHP_Partie3/Exercice2.php">Exercice2</a></li>
+            <li><a href="Exercice_PHP_Partie3/Exercice3.php">Exercice3</a></li>
+            <li><a href="Exercice_PHP_Partie3/Exercice4.php">Exercice4</a></li>
+            <li><a href="Exercice_PHP_Partie3/Exercice5.php">Exercice5</a></li>
+            <li><a href="Exercice_PHP_Partie3/Exercice6.php">Exercice6</a></li>
+            <li><a href="Exercice_PHP_Partie3/Exercice7.php">Exercice7</a></li>
+            <li><a href="Exercice_PHP_Partie3/Exercice8.php">Exercice8</a></li>
+            <li><a href="Exercice_PHP_Partie3/Exercice9.php">Exercice9</a></li>
         </ul>
     </div>
     <div>
