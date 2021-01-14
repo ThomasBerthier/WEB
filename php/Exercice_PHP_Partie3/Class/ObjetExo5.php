@@ -7,10 +7,11 @@
         private $Attaque;
         private $Defense;
         private $_ID;
+        private $_dbs;
 
         public function __construct($UserID){
-            $dbs = new PDO('mysql:host=localhost;dbname=Thomas_Objet_Exo5', "root", "root");
-            $stmt = $dbs->query("SELECT * FROM Personnage where _ID = '$UserID'");
+            $this->_dbs = new PDO('mysql:host=localhost;dbname=Thomas_Objet_Exo5', "root", "root");
+            $stmt = $this->_dbs->query("SELECT * FROM Personnages where _ID = '$UserID'");
             $stmt = $stmt->fetch();
             $this->_ID = $UserID;
             $this->Pseudo = $stmt["Pseudo"];
