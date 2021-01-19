@@ -10,6 +10,7 @@
     <h1>Exercice 4 :</h1>
     <?php
         $Player = new Personnage("Julien");
+        echo $Player->Pseudo;
         $Monster = new personnage("Gobelin");
         $Monster->attaquer($Player);
     ?>
