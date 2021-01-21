@@ -17,7 +17,7 @@
             echo"<div>Le $this->Pseudo sauvage a attaqué $target->Pseudo</div>";
             $this->defense($target,50);
         }
-        
+
         //Effectue l'attaque contre target de la valeur attack
         public function defense($target, $attack){
             $target->Vie -= $attack;
