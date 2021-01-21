@@ -9,6 +9,7 @@
 <body>
     <h1>Exercice 5 :</h1>
     <?php
+        //créé le nouvel objet
         $Player = new Personnage(1);
         $Player->stats();
     ?>

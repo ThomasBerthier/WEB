@@ -15,7 +15,7 @@
     <form action="" method="post">
         <select name="Personnages">
             <?php
-
+            //créé les options du select ligne par ligne avec les données de la BDD
             foreach ($stmt as $key) {
                 ?>
                 <option value="<?php echo $key["_ID"];?>"><?php echo $key["Pseudo"];?></option>

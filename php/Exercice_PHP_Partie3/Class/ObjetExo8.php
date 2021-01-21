@@ -1,4 +1,5 @@
 <?php 
+    //Exercice8
     class Personnage {
         private $_Pseudo;
         private $_Vie;

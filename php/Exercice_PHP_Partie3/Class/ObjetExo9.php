@@ -1,4 +1,5 @@
 <?php
+    //Exercice 9
     class Personnage {
         private $_ID;
         private $_Pseudo;

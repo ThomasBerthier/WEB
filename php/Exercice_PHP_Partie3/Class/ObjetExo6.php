@@ -22,12 +22,12 @@
         public function stats(){
             echo"<div>$this->Pseudo : $this->Vie PV";
         }
-        //Indique l'attaque contre target et effectue la methode défense
+        //Indique l'attaque contre l'objet target et effectue la methode défense
         public function attaquer($target){
             echo"<div>$this->Pseudo a attaqué $target->Pseudo</div>";
             $this->defense($target,50);
         }
-        //Décremente la vie de $target et annonce sa vie
+        //Décremente la vie de target de $attack et annonce sa vie
         public function defense($target, $attack){
             $target->Vie -= $attack;
             $this->_dbs->query("UPDATE Personnages SET Vie='".$target->Vie."' WHERE _ID='".$target->_ID."'");

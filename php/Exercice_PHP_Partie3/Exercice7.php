@@ -9,6 +9,8 @@
 <body>
     <h1>Exercice 7 :</h1>
     <?php
+        /*créé un tableau, le rempli avec les données de la BDD
+        et utilise une fonction pour chaque ligne du tableau*/ 
         $Tableau = Array();
         $dbs = new PDO('mysql:host=localhost;dbname=Thomas_Objet_Exo5', "root", "root");
         $stmt = $dbs->query("SELECT * FROM Personnages");

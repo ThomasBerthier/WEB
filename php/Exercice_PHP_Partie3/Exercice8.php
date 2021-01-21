@@ -18,6 +18,7 @@ include "Class/ObjetExo8.php";
         <input type="submit" value="Valider" name="Submit">
     </form>
     <?php
+    //créé un objet si le form et envoyé
     $dbs = new PDO('mysql:host=localhost;dbname=Thomas_Objet_Exo5', "root", "root");
     if(isset($_GET["Submit"])) {
         if(isset($_GET["Pseudo"]) && isset($_GET["Vie"])) {
