@@ -254,3 +254,37 @@ function exo13() {
 
     //A finir
 }
+
+function exo14() {
+    init();
+}
+
+function init() {
+    var Submit = document.getElementById("Submit");
+    var Reset = document.getElementById("Reset");
+    var Text = document.getElementById("Text");
+
+    Submit.addEventListener("click", fctSubmit, true);
+    Reset.addEventListener("click", reset, true);
+
+    function fctSubmit() {
+        alert(Text.value);
+    }
+    function reset() {
+        alert("Resetting String");
+        Text.value='';
+    }
+}
+
+function exo15() {
+    init2();
+}
+
+function init2() {
+    var span = document.getElementById("span1");
+    span.addEventListener("click", mongestionnaire, false);
+}
+
+function mongestionnaire() {
+    this.style.background = "green";
+}
