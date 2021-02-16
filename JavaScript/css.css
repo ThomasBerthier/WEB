@@ -1,0 +1,27 @@
+.needle {
+    position: absolute;
+}
+
+
+#needleHours {
+    left: 191px;
+    top: 110px;
+    transform: rotate( 0deg );
+    transform-origin: bottom;
+}
+
+#needleMinutes {
+    left: 191.5px;
+    top: 71px;
+    transform-origin: bottom;
+    transform: rotate( 0deg );
+    height: 130px;
+}
+
+#needleSeconds {
+    left: 192px;
+    height: 150px;
+    top: 51px;
+    transform-origin: bottom;
+    transform: rotate( 0deg );
+}
